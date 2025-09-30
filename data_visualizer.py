@@ -4,10 +4,7 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy as np
 import sqlite3  # 导入 SQLite 库
-import streamlit.config as st_config
-import os
-import webbrowser
-import platform
+
 
 
 # 创建数据库连接
