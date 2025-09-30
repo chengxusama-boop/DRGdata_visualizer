@@ -348,7 +348,7 @@ with main_tab2:
                     if not similar_patients.empty:
                         st.write("筛选出住院天数的相似病人：")
                         # 添加一列标记所选病人
-                        similar_patients['是否选中'] = similar_patients['姓名'] == selected_case
+                        similar_patients.loc['是否选中'] = similar_patients['姓名'] == selected_case
                         
                         # 根据标记列进行排序，将所选病人放在第一位
                         similar_patients_sorted = similar_patients.sort_values(by='是否选中', ascending=False)
