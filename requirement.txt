@@ -1,0 +1,5 @@
+pandas
+numpy
+streamlit==1.40.1
+sqlite3
+plotly
